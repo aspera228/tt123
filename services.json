@@ -1,0 +1,851 @@
+{
+  "PluginService": {
+    "state": {
+      "__INTERNAL__pluginSerializedStates": {
+        "poll": [
+          {},
+          0
+        ],
+        "scman": [
+          {},
+          0
+        ],
+        "viewerWishes": [
+          {},
+          0
+        ],
+        "giftGallery": [
+          {},
+          0
+        ],
+        "gamingViewerWishes": [
+          {
+            "promo": {
+              "isNotFirstEntry": false,
+              "reminderShown": 0
+            },
+            "_firstEntryFor": {},
+            "hasUsedGameTricks": false
+          },
+          0
+        ],
+        "launch": [
+          {
+            "lastExposeAutoPostTime": 0,
+            "autoPostGuideExposeCount": 0,
+            "autoPostGuideClicked": false
+          },
+          0
+        ],
+        "anchor-task": [
+          {},
+          0
+        ]
+      },
+      "remotePluginSources": [
+        {
+          "friendlyName": "plugin-end-live",
+          "sources": [
+            {
+              "channelId": "tiktok_live_studio_plugin_end_live_new",
+              "env": "test",
+              "prefix": "plugin-end-live",
+              "type": "gecko"
+            },
+            {
+              "channelId": "tiktok_live_studio_plugin_end_live_new",
+              "env": "prod",
+              "prefix": "plugin-end-live",
+              "type": "gecko"
+            }
+          ]
+        }
+      ],
+      "externalPluginDevSwitch": false
+    },
+    "version": 0
+  },
+  "RoomService": {
+    "state": {
+      "pauseLiveStartTime$": null,
+      "liveSetting": {
+        "title": "Lets Go LIVE!",
+        "closeRoomWhenCloseStream": false,
+        "thirdParty": 0,
+        "liveAudio": 0,
+        "muteDuration": 0,
+        "screenShot": 0,
+        "defaultCoverInfo": {
+          "name": "",
+          "uri": "",
+          "urlList": []
+        },
+        "coverInfo": {
+          "name": "",
+          "uri": "",
+          "urlList": []
+        },
+        "activityVisible": 1,
+        "giftAuth": 1,
+        "chatAuth": 1,
+        "hideSpam": true,
+        "sensitiveWords": [],
+        "screenshotCoverStatus": 2,
+        "hiddenMsgTypes": [],
+        "onlyShowUserTypes": [],
+        "showGiftEffect": true,
+        "showLikeEffect": true,
+        "starCommentSwitch": true,
+        "grantGroup": 1,
+        "grantLevel": 0,
+        "liveDataTypes": [
+          "RealTimeViewers",
+          "TotalViewers",
+          "GiftGivers",
+          "NewFollowers",
+          "Likes"
+        ],
+        "autoTranslation": false,
+        "userFilterConfig": {
+          "UserLevel": -1,
+          "FollowStatus": -1,
+          "GiftAmount": -1,
+          "TopViewerRank": -1,
+          "MemberLevel": -1,
+          "SubscribeStatus": -1
+        },
+        "canCollectPiracyData": true,
+        "brandedContent": {
+          "value": 0,
+          "isDefaultValue": true
+        },
+        "ownBrand": false
+      },
+      "diagnosis": {
+        "currentLiveShownTips": [],
+        "currentTipChecked": false,
+        "currentLiveDiagnosisResult": {},
+        "shouldNeverShowAgainV2": false,
+        "goLiveDiagnosisResult": {}
+      },
+      "studioModeGiftEffectPosition": "live_chat",
+      "mobileViewGiftEffectPosition": "canvas",
+      "lastRoomInfo": null
+    },
+    "version": 0
+  },
+  "LiveService": {
+    "state": {
+      "liveChatFloatBgOpacity": 0.6,
+      "liveChatFloatCommentOpacity": 1,
+      "liveChatFloatContentSize": 1,
+      "chatBoxSetting": {
+        "backgroundOpacity": 1,
+        "contentOpacity": 1,
+        "quantity": 3,
+        "chatFrom": 1,
+        "autoRemove": false,
+        "autoRemoveTime": 10,
+        "customTheme": 0,
+        "hiddenMsgTypes": [],
+        "appearanceType": "theme_template",
+        "theme": "Fantasy",
+        "themeBackgroundOpacity": 1,
+        "themeContentOpacity": 1
+      },
+      "isHotAnchorInChatBox": false,
+      "giftBroadcastSettings": {
+        "voiceOver": 50,
+        "alertTriggerCoins": 1,
+        "enableGiftBroadcast": false,
+        "aiSoundEffect": "female_voice",
+        "toneSoundEffect": "money",
+        "broadcastType": "default_tone"
+      },
+      "showChatFeature": true,
+      "autoPopOutInLive": true,
+      "boostCards": []
+    },
+    "version": 0
+  },
+  "StreamSetting": {
+    "state": {
+      "hotkeys": [],
+      "disableHotkeys": false,
+      "hotkeyMigrationVersion": 0,
+      "enableAppProtection": false,
+      "linkmicBgAudio": {
+        "mute": false,
+        "enable": true,
+        "volume": 1
+      },
+      "extendsChatLayout": 1,
+      "extendSettingConfigEnableIdList": [],
+      "extendsChatGuideLocalMemory": {
+        "lastOpenTime": 0,
+        "openedTimes": 0
+      },
+      "presetLevel": 2,
+      "gearId": 720030,
+      "resolution": [
+        1280,
+        720
+      ],
+      "secondResolution": [
+        720,
+        1280
+      ],
+      "fps": 30,
+      "colorSpace": 2,
+      "colorRange": 2,
+      "bitrateA": 128,
+      "audioCodecExperimentGroup": 1,
+      "audioCodecExperimentFirstTip": false,
+      "bitrate": 4000,
+      "use265": false,
+      "recordFolder": "C:\\Users\\Admin\\Videos",
+      "videoEnc": "ByteVC0",
+      "audioEnc": "FDK_AAC",
+      "videoSaveFormat": "mp4",
+      "videoLevel": "low",
+      "audioLevel": 0,
+      "enableDWM": false,
+      "streamDelay": 0,
+      "displayMode": 0,
+      "displayRatio": 1,
+      "autoTransition": false,
+      "isLinkMicMode": false,
+      "audioInputs": [],
+      "audioOutputs": [],
+      "audioAppOutputs": [],
+      "audioPcmOutputs": [],
+      "rateControl": "",
+      "bFRAME": false,
+      "gopSize": 2,
+      "preset": "",
+      "isVideoEncoderEx": false,
+      "videoEncoderList": [],
+      "enforceFormat": false,
+      "landscapeCropRatio": 0,
+      "portraitCropRatio": 0,
+      "showCropRange": true,
+      "endLiveTest": {},
+      "lastShowNoiseTip": 0,
+      "lockedAudioConfig": null
+    },
+    "version": 0
+  },
+  "LinkmicService": {
+    "state": {
+      "linkmicAudioId": "DEFAULT_OUTPUT_ID",
+      "cohostOutputResolution": 1
+    },
+    "version": 0
+  },
+  "UserService": {
+    "state": {
+      "gifterLimitedExposureCount": {},
+      "gifterLimitedOverLimitReportedUids": {},
+      "isAgeWarningSeen": false,
+      "live18GameAcControl": {
+        "any_game_nums": false
+      },
+      "notToShow": {},
+      "isTrial": false,
+      "violationInfo": {},
+      "viewerRankingTabCount": {
+        "bonding_tips": 0,
+        "most_gifts": 0,
+        "most_watch_time": 0
+      },
+      "hasViewerRankingClicked": false,
+      "ageAssuranceInfo": {
+        "ageAssuranceReviewState": "noVerify",
+        "ageRestricted": false,
+        "ageVerifyTimes": 0
+      }
+    },
+    "version": 0
+  },
+  "EffectService": {
+    "state": {
+      "favoriteEffects": [],
+      "maxCameraRateWithEffect": 30,
+      "effectSDKVersion": "21.2.0"
+    },
+    "version": 0
+  },
+  "EffectMonitorService": {
+    "state": {
+      "_applyEffectStatus": {}
+    },
+    "version": 0
+  },
+  "AudioService": {
+    "state": {
+      "bgMusicVolumeAlertTime": 0,
+      "temperyMonitoringDevice": null,
+      "monitorAudioId": "DEFAULT_OUTPUT_ID",
+      "antiVolumeSpikeDeviceMap": {},
+      "lastShowAudioLoudnessIssueTipTime": 0,
+      "manualCloseAudioIssueTipCnt": 0,
+      "forceJudgeAsClippingForDev": false
+    },
+    "version": 0
+  },
+  "AbTestService": {
+    "state": {
+      "lokiVersion": 2,
+      "audioFilterVersion": 0,
+      "enableLyraxAutoAns": 0,
+      "enableLyraxAutoAec": 0
+    },
+    "version": 0
+  },
+  "ImageManagerService": {
+    "state": {
+      "serverImageUrls": [],
+      "serverAiImageUrls": [],
+      "serverBackgroundImages": [],
+      "userImageInfos": [],
+      "isMigratedFromEffect": false,
+      "isMigratedFromOldVersion": false
+    },
+    "version": 0
+  },
+  "DevToolService": {
+    "state": {
+      "enableAISDKDumpImage": false,
+      "browserContainerWindowVisible": false,
+      "openDevToolsForEach": [],
+      "lynxEmbedReplacementUrls": "",
+      "forceGiftMp4": false
+    },
+    "version": 0
+  },
+  "CoHostContextService": {
+    "state": {
+      "outputResolution": 1,
+      "hasOutputResolutionMigrated": false,
+      "layoutConfig": null,
+      "flags": {
+        "clear_layout_config_after_linmic_end": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "linkmic"
+        },
+        "source_cropped_tip": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "live"
+        },
+        "layout_edit_tip": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "device"
+        },
+        "restore_scene_after_end_never_ask": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "device"
+        },
+        "layout_edit_tip_after_first_accept": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "device"
+        },
+        "can_resume": {
+          "value": true,
+          "defaultValue": true,
+          "lifecycle": "linkmic"
+        },
+        "mg_cohost_invite_muted_this_live": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "device"
+        },
+        "mg_cohost_invite_muted_last_live": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "device"
+        },
+        "mg_cohost_decline_popup_disabled": {
+          "value": false,
+          "defaultValue": false,
+          "lifecycle": "device"
+        }
+      },
+      "rivalsSearchHistory": [],
+      "missedInvitationList": []
+    },
+    "version": 0
+  },
+  "MultiGuestContextService": {
+    "state": {
+      "guestFloatPanel": {
+        "floatLayout": "vertical"
+      },
+      "roomPermission": {
+        "0": 0,
+        "1": 0
+      },
+      "allowCoHostInvitation": true
+    },
+    "version": 0
+  },
+  "SourceService": {
+    "state": {
+      "scenes": [],
+      "sceneSource": {},
+      "layerMap": {
+        "horizontal": {},
+        "vertical": {},
+        "dual": {}
+      },
+      "currentScene": null,
+      "currentPreviewScene": null,
+      "lastScenes": [],
+      "currentOrientation": "horizontal",
+      "currentEditorMode": "editor",
+      "restrictedVisualIds": [],
+      "currLinkMicHostCamera": null,
+      "currLinkMicHostScreenShare": null,
+      "preActiveCamera": "",
+      "gameCaptureRetryIds": [],
+      "effectBackgroundImg": {},
+      "editedEffectCameras": [],
+      "copyInfo": null,
+      "hasPresetLanscape": false,
+      "hasPresetPortrait": false,
+      "hasPresetDual": false,
+      "hasShowLanscapeTip": false,
+      "hasShowPortraitTip": false,
+      "hasShowDualTip": false,
+      "textThemeConfig": [],
+      "canvasPreviewEnable": true,
+      "mockEnabledRestream": false,
+      "sourceGuideTipShow": {
+        "alert": {
+          "state": 0,
+          "sourceIds": []
+        },
+        "goal": {
+          "state": 0,
+          "sourceIds": []
+        }
+      },
+      "sensitiveRestrictionEnabled": {
+        "enable": false,
+        "dualEnable": false
+      },
+      "sourceAccessControl": {
+        "isUserInWhitelist": false,
+        "blacklistedSources": []
+      },
+      "_mediaAlphaValueMap": {},
+      "disableGamePrankValidation": false,
+      "currentOrientationNew": "horizontal",
+      "currentSceneNew": null
+    },
+    "version": 0
+  },
+  "ContextService": {
+    "state": {
+      "hardwareLevel": "B"
+    },
+    "version": 0
+  },
+  "PromoService": {
+    "state": {
+      "_featureBadges": {
+        "consuming": [],
+        "invalidated": [],
+        "_periodicConfig": [],
+        "firstShownAt": [],
+        "expiredAt": []
+      },
+      "keyValueStore": {}
+    },
+    "version": 0
+  },
+  "AppService": {
+    "state": {
+      "finishLanding": false,
+      "language": "en",
+      "showTutorial": false,
+      "speedTestResult": {
+        "upload": 0,
+        "download": 0,
+        "pings": 0,
+        "cpuName": "AMD Ryzen 5 5600 6-Core Processor              ",
+        "cpuScore": 92,
+        "gpuName": "NVIDIA GeForce RTX 4060",
+        "gpuScore": 120,
+        "memory": 16,
+        "hardwareLevel": "B",
+        "type": "websocket",
+        "lastTestDate": 0
+      },
+      "hadSpeedTestAfterLiveDiagnosis": false,
+      "livePerformanceStutterReasons": [],
+      "canvasPreviewOn": true,
+      "overlay": {
+        "listV2": []
+      },
+      "notToShow": {},
+      "exitAppType": "EXIT_APP",
+      "hardwareInfo": {
+        "disableHardwareAcceleration": true,
+        "gpuModel": ""
+      },
+      "sceneTransition": "",
+      "sceneTransitionSettingData": null,
+      "hasInitializedSceneTransition": false,
+      "videoRecordLayout": "HORIZONTAL",
+      "highlightFreeTimeGuide": true,
+      "bondingTipsShowCount": {},
+      "highlightSharePermissionModerators": false,
+      "highlightSharePermissionGuest": false,
+      "highlightSharePermissionEndLiveTextClicked": false,
+      "highlightSharePermissionEndLiveTextShowCount": 0,
+      "userInfoPanelSummaryAutoOpen": false,
+      "userInfoPanelSummaryOpenCount": 0
+    },
+    "version": 0
+  },
+  "HardwareLevelService": {
+    "state": {
+      "hardwareLevelByScene": {
+        "GAME": "B",
+        "SHOW": "B"
+      }
+    },
+    "version": 0
+  },
+  "AIEngineService": {
+    "state": {
+      "autoOpenedBleep": false,
+      "banBleepData": {
+        "ban": false,
+        "endTime": -1
+      },
+      "langDetectorState": {
+        "langs": {},
+        "state": 0,
+        "lastDetectTime": 0
+      },
+      "langDetectorResult": []
+    },
+    "version": 0
+  },
+  "LiveDataService": {
+    "state": {
+      "liveDataFloatWinSetting": {
+        "layoutType": 0,
+        "bgOpacity": 0.6,
+        "contentOpacity": 1,
+        "contentSize": 1
+      }
+    },
+    "version": 0
+  },
+  "AccountService": {
+    "state": {
+      "accountList": [],
+      "secret": "593210f8253520c00ab3de473b2b308a150ec83f2b4a6aecdd3ce3b4e74d03a6"
+    },
+    "version": 0
+  },
+  "LivePerfAndNetAutoAdaptService": {
+    "state": {},
+    "version": 0
+  },
+  "PlaybookService": {
+    "state": {
+      "recentUsedPlaybook": [],
+      "enterFrom": "main_window"
+    },
+    "version": 0
+  },
+  "DynamicConfigManagerService": {
+    "state": {
+      "serverConfig": {
+        "business_version": 1,
+        "enable_board": true
+      }
+    },
+    "version": 0
+  },
+  "FeatureCenterService": {
+    "state": {
+      "persistentFeature": {}
+    },
+    "version": 0
+  },
+  "VibeTriggerService": {
+    "state": {
+      "vibeTriggerList": [],
+      "vibeTriggerOrder": [],
+      "vibeTriggerData": {},
+      "transitionType": 22,
+      "isIntroduced": false,
+      "shouldShowShortcutTip": true,
+      "shouldShowAutoGameTriggerTip": true,
+      "shouldOpenAutoGameTriggerIntro": true,
+      "triggerControlSettings": {
+        "enableGameHighlight": "disabledAll",
+        "enableGameHighlightAuto": false,
+        "enableGesture": "disabledAll",
+        "enableVoice": "disabledAll",
+        "gestureScope": "always",
+        "voiceScope": "duringLive"
+      },
+      "_gestureScopeAlwaysMigrated": true,
+      "isPerformanceWarningDismissed": false,
+      "tempVibeEffectFacePosition": null
+    },
+    "version": 0
+  },
+  "RankingStickerService": {
+    "state": {
+      "rankingRegionPermission": {
+        "8": true,
+        "11": true
+      },
+      "rankingDisplaySwitch": {
+        "8": true,
+        "11": true
+      },
+      "rankingAutoShowSettings": {
+        "8": false,
+        "11": false
+      }
+    },
+    "version": 0
+  },
+  "LiveGoalRewardService": {
+    "state": {
+      "rewardStickerSwitch": true,
+      "rewardReviewStatus": 0,
+      "displayRewardDesc": "",
+      "displayRange": 0,
+      "rangeOptions": [
+        {
+          "label": "ttlive_ls_liveGoalReward_goalSettings_rewardOption0",
+          "value": 0
+        },
+        {
+          "label": "ttlive_ls_liveGoalReward_goalSettings_rewardOption1",
+          "value": 1
+        },
+        {
+          "label": "ttlive_ls_liveGoalReward_goalSettings_rewardOption2",
+          "value": 2
+        },
+        {
+          "label": "ttlive_ls_liveGoalReward_goalSettings_rewardOption3",
+          "value": 3
+        }
+      ],
+      "rewardError": "",
+      "hasRewardSwitchTipsShown": false,
+      "autoCreateRemindToastTimes": {},
+      "totalAutoCreateRemindToastTimes": 0,
+      "whatsNewBannerShowTimes": {},
+      "introInfoBarDismissedTipsByRoomId": {},
+      "liveGoalRewardOptimizationTipsCount": 0,
+      "liveGoalRewardActiveTab": 0,
+      "rewardWinnerUids": [],
+      "rewardWinnerWatchStartedAtByUid": {},
+      "hasRewardBlink": false
+    },
+    "version": 0
+  },
+  "LandingService": {
+    "state": {
+      "landingStep": "select_live_type",
+      "skipSetupLayoutGuideEligible": false
+    },
+    "version": 0
+  },
+  "SourceAlphaValueService": {
+    "state": {
+      "_sourceAlphaValueMap": {}
+    },
+    "version": 0
+  },
+  "InteractiveToolService": {
+    "state": {
+      "frequencyRecord": {
+        "type": "GameRevenueTips",
+        "count": 0
+      },
+      "interactiveButtonTooltipShownTime": 0
+    },
+    "version": 0
+  },
+  "ChatSettingService": {
+    "state": {
+      "enableMonetizationTips": true,
+      "enableAIScriptTips": false,
+      "AIPromptSelectedOption": "script",
+      "enablePlaybookStepTips": false,
+      "enableCoHostWithFriendsTips": false,
+      "enableGuessingGameTips": false,
+      "enableLiveGoalTips": false
+    },
+    "version": 0
+  },
+  "UpdaterControlService": {
+    "state": {
+      "sharedTextureImportFailedCount": 0,
+      "neverUseSharedTextureAgain": false
+    },
+    "version": 0
+  },
+  "PlaybookFixedProcessService": {
+    "state": {
+      "recentUsedPlaybook": [],
+      "enterFrom": "main_window"
+    },
+    "version": 0
+  },
+  "SpEffectFloatService": {
+    "state": {},
+    "version": 0
+  },
+  "PopupService": {
+    "state": {
+      "windowBoundsRecord": {}
+    },
+    "version": 0
+  },
+  "StrategyCenterService": {
+    "state": {
+      "TSStrategyState": {
+        "TSStrategyState": {}
+      }
+    },
+    "version": 0
+  },
+  "LayoutService": {
+    "state": {
+      "layoutPreferences": {}
+    },
+    "version": 0
+  },
+  "MobileViewService": {
+    "state": {
+      "hasShownV1CloseGuide": false,
+      "hasShownV2EntryBubble": false
+    },
+    "version": 0
+  },
+  "RecordSettingService": {
+    "state": {
+      "autoPost": false,
+      "autoRecord": false,
+      "visibility": "Public",
+      "aiEditingValue": 0,
+      "autoPostLimited": 0,
+      "lastEditAutoPostTime": 0
+    },
+    "version": 0
+  },
+  "InstantReplayService": {
+    "state": {
+      "saveLocally": false,
+      "recordDurationSec": 60,
+      "floatingDisplay": false
+    },
+    "version": 0
+  },
+  "AIPersonaService": {
+    "state": {
+      "usageStatus": {
+        "alertSource": {}
+      }
+    },
+    "version": 0
+  },
+  "WindowLayoutService": {
+    "state": {
+      "isLayoutMemory": true,
+      "windowLayout": {}
+    },
+    "version": 0
+  },
+  "GameHighlightTriggerService": {
+    "state": {
+      "gameHighlightList": [],
+      "gameExpansionPromo": {}
+    },
+    "version": 0
+  },
+  "GestureTriggerService": {
+    "state": {
+      "gestureList": []
+    },
+    "version": 0
+  },
+  "AutoTriggerService": {
+    "state": {
+      "cacheMarketSoundEffectIdList": []
+    },
+    "version": 0
+  },
+  "VersionFeatureService": {
+    "state": {
+      "pinShownCounts": {}
+    },
+    "version": 0
+  },
+  "InteractiveGameService": {
+    "state": {
+      "hasPermission": false
+    },
+    "version": 0
+  },
+  "SoundEffectAIGCService": {
+    "state": {},
+    "version": 0
+  },
+  "AIChatService": {
+    "state": {
+      "enableStudioAssistant": 0,
+      "devOnlyEnableStudioAssistant": 0,
+      "sessionList": [],
+      "_sessionSnapshots": {},
+      "_processingMessageSnapshots": {},
+      "_sessionStateByUserId": {
+        "anonymous": {
+          "sessionList": [],
+          "activeSessionId": null,
+          "pinnedSessionMap": {},
+          "pendingAttentionItems": []
+        }
+      },
+      "_legacySessionMigration": {
+        "version": 1,
+        "ownerUserId": "anonymous",
+        "status": "quarantined"
+      },
+      "pinnedSessionMap": {},
+      "draftFeTaskId": "6893a7b9-420b-417c-9b4a-4ce83058a190",
+      "pendingAttentionItems": [],
+      "devOnlyFrontierExtraParams": {},
+      "devOnlyFrontierWsBaseUrl": "",
+      "devOnlyApiBaseUrl": "",
+      "devOnlyAutoOptimizeWorkflowId": "",
+      "devOnlyShowToolDetails": false,
+      "devOnlyShowThinkingContent": true,
+      "devOnlyUse10sLocalToolTimeout": false,
+      "devOnlyFloatClueBar": false,
+      "devOnlyUse10MinSessionRetention": false,
+      "devOnlyLongMessageInitialRows": 32,
+      "devOnlyLongMessageLoadRows": 16,
+      "permissionSkipToolNames": []
+    },
+    "version": 0
+  }
+}
